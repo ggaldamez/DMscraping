@@ -5,7 +5,7 @@ from scrapeGame import *
 from bs4 import BeautifulSoup
 
 
-def processGameRow(gameData, prevDate, roundNo, gameNo):
+def processGameRow(gameData, prevDate, roundNo, gameNo, season):
 	baseURL='http://www.worldfootball.net'
 	# get the date
 	if str(gameData[0].string) != 'None':
@@ -36,7 +36,19 @@ def processGameRow(gameData, prevDate, roundNo, gameNo):
 
 	detailslink = baseURL + str(rawscore[0]["href"])
 
-	print (str(gameNo) + " - " + str(roundNo) + "\t" + somedate +"\t" +  hometeam +"\t" +  awayteam + "\t" + homeScore + "\t" + awayScore + "\t" + detailslink)
+	#print (str(gameNo) + " - " + str(roundNo) + "\t" + somedate +"\t" +  hometeam +"\t" +  awayteam + "\t" + homeScore + "\t" + awayScore + "\t" + detailslink)
+
+	#save to CSV file
+	saveFileName = r'matches.csv'
+
+	csvMatchRow = '{0},{1},{2},{3},{4},{5},{6},{7},{8}\n'.format(gameNo, season, roundNo, somedate, hometeam, awayteam, homeScore, awayScore, detailslink)
+
+	with open(saveFileName,'a') as f:
+		f.write(csvMatchRow)
+
+	#process gameDetails
+
+	#return date for next iteration
 	return somedate
 
 
@@ -45,7 +57,7 @@ def main():
 
 	seasonURLs = []
 	initialYear = 1992
-	finalYear = 1993
+	finalYear = 2012
 
 	counter = initialYear
 	globalGameNo = 1
@@ -59,7 +71,8 @@ def main():
 		page = requests.get(address)
 		seasonYears =  address[-10:-1]
 		print "processing " + seasonYears
-		saveFileName = r'games/{0}.txt'.format(seasonYears)
+		#saveFileName = r'games/{0}.txt'.format(seasonYears)
+
 		soup = BeautifulSoup(page.content, 'html.parser')
 		delay(5)
 		#soup = BeautifulSoup(open("season.htm"), 'html.parser')
@@ -74,22 +87,22 @@ def main():
 		gameDate =''
 		roundNumber = ''
 
-		with open(saveFileName,'w') as f:
-			for i,tr in enumerate(rows):
-				'''
-				if (i>25):
-					break
-				'''
-				dataCells = tr.find_all("td")
-				if (len(dataCells)>0):
-					#print ("\t there is game data here")
-					gameDate = processGameRow(dataCells,gameDate,roundNumber, globalGameNo)
-					globalGameNo += 1
-				else:
-					roundLink = tr.find_all("a")
-					rawRound = str(roundLink[0].string)
-					roundNumber = rawRound[:rawRound.find('.')]
-					#print str(roundLink[0].string) + " -- " + str(roundLink[0]["href"])
+
+		for i,tr in enumerate(rows):
+			'''
+			if (i>25):
+				break
+			'''
+			dataCells = tr.find_all("td")
+			if (len(dataCells)>0):
+				#print ("\t there is game data here")
+				gameDate = processGameRow(dataCells,gameDate,roundNumber, globalGameNo, seasonYears)
+				globalGameNo += 1
+			else:
+				roundLink = tr.find_all("a")
+				rawRound = str(roundLink[0].string)
+				roundNumber = rawRound[:rawRound.find('.')]
+				#print str(roundLink[0].string) + " -- " + str(roundLink[0]["href"])
 
 
 
@@ -112,4 +125,4 @@ def main():
 	'''
 
 if __name__ == '__main__':
-  main()
+	main()
