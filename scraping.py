@@ -47,6 +47,7 @@ def processGameRow(gameData, prevDate, roundNo, gameNo, season):
 		f.write(csvMatchRow)
 
 	#process gameDetails
+	#getGameData(gameNo,detailslink,int(homeScore)+int(awayScore))
 
 	#return date for next iteration
 	return somedate
