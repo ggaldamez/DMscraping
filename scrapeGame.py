@@ -11,12 +11,28 @@ def delay(secs):
 def uniclean(s):
 	return unicodedata.normalize('NFKD',s).encode('ascii', 'ignore')
 
-def getCoaches(gId,cData):
-	managerTag = cData.find_all('a')
-	#print (managerTag[0].string)
+def getCoaches(gId,cData, cData2):
+	#print(cData)
+	managerCell = cData.find_all('th')
+	managers = []
 
-	homeManager = uniclean(managerTag[0].string)
-	awayManager = uniclean(managerTag[1].string)
+	if len(managerCell) == 0:
+		managerCell = cData2.find_all('th')
+
+	for i, cell in enumerate(managerCell):
+		manTag = cell.find('a')
+		#print manTag
+		if manTag != None:
+			managers.append(manTag.contents[0])
+		else:
+			managers.append(u'Unknown')
+	#print (managerTag[0].string)
+	#print managers
+	#print type(managers[0])
+	#print type(managers[1])
+
+	homeManager = uniclean(managers[0])
+	awayManager = uniclean(managers[1])
 
 	coachesRow = '{0},{1},{2}\n'.format(gId, homeManager, awayManager)
 	#print coachesRow
@@ -59,6 +75,7 @@ def getGoals(gId, gData, nGoals):
 					pointEarner = "no"
 				#print scoringMinute + " " + str(int(partialHome)+int(partialAway)) + " (" + str(nGoals)+ ") " + str(goalDiff)
 				printRow = '{},{},{},{},{},{},{},{}\n'.format(gId, scoringMinute, scoringTeam, scorerName, partialHome, partialAway, goalDiff, pointEarner)
+				#print printRow
 				f.write (printRow)
 
 
@@ -70,15 +87,16 @@ def getGameData(gameId, site, numGoals):
 	delay(3)
 	page = requests.get(site)
 	soup = BeautifulSoup(page.content, 'html.parser')
-
+	print "processing match number " + str(gameId)
 	raw_report_data = soup.find_all("div", {"class": "box"})
 
 	report_data = raw_report_data[0].find_all("table")
 
 	goals_data = report_data[1]
 	manager_data = report_data[5]
+	manager_data_secondary = report_data[6]
 
-	getCoaches(gameId,manager_data)
+	getCoaches(gameId,manager_data, manager_data_secondary)
 
 	if numGoals>0:
 		getGoals(gameId,goals_data,numGoals)

@@ -1,0 +1,553 @@
+[u'\n', <tr>
+<th align="center" width="35%">
+<a href="/teams/arsenal-fc/" title="Arsenal FC">Arsenal FC</a>
+</th>
+<th align="center">
+									Saturday, 26. August 2000<br/>15:00  								</th>
+<th align="center" width="35%">
+<a href="/teams/charlton-athletic/" title="Charlton Athletic">Charlton Athletic</a>
+</th>
+</tr>, u'\n', <tr>
+<td align="center" class="hell">
+<a href="/teams/arsenal-fc/"><img border="0" src="http://static.weltsport.net/bilder/wappen/mittel/555.gif" title="Arsenal FC" vspace="5" width="100"/></a>
+</td>
+<td align="center" class="dunkel">
+<div class="resultat">
+										5:3 									</div>
+</td>
+<td align="center" class="hell">
+<a href="/teams/charlton-athletic/"><img border="0" src="http://static.weltsport.net/bilder/wappen/mittel/551.gif" title="Charlton Athletic" vspace="5" width="100"/></a>
+</td>
+</tr>, u'\n']
+ ******************************** END TABLE 0 
+[u'\n', <tr>
+<td align="center" class="ueberschrift" colspan="2">goals</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="20%">
+<b>1 : 0</b>
+</td>
+<td class="hell">
+<a href="/player_summary/patrick-vieira/" title="Patrick Vieira">Patrick Vieira</a> 19.																</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="20%">
+<b>1 : 1</b>
+</td>
+<td class="dunkel" style="padding-left: 50px;">
+<a href="/player_summary/andrew-hunt/" title="Andrew Hunt">Andrew Hunt</a> 24.																</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="20%">
+<b>1 : 2</b>
+</td>
+<td class="hell" style="padding-left: 50px;">
+<a href="/player_summary/andrew-hunt/" title="Andrew Hunt">Andrew Hunt</a> 31.																</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="20%">
+<b>2 : 2</b>
+</td>
+<td class="dunkel">
+<a href="/player_summary/thierry-henry/" title="Thierry Henry">Thierry Henry</a> 46.																</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="20%">
+<b>2 : 3</b>
+</td>
+<td class="hell" style="padding-left: 50px;">
+<a href="/player_summary/graham-stuart/" title="Graham Stuart">Graham Stuart</a> 58.																</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="20%">
+<b>3 : 3</b>
+</td>
+<td class="dunkel">
+<a href="/player_summary/patrick-vieira/" title="Patrick Vieira">Patrick Vieira</a> 61.																</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="20%">
+<b>4 : 3</b>
+</td>
+<td class="hell">
+<a href="/player_summary/thierry-henry/" title="Thierry Henry">Thierry Henry</a> 67.																</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="20%">
+<b>5 : 3</b>
+</td>
+<td class="dunkel">
+<a href="/player_summary/sylvinho/" title="Sylvinho">Sylvinho</a> 89.																</td>
+</tr>, u'\n']
+ ******************************** END TABLE 1 
+[u'\n', <tr>
+<td valign="top" width="50%">
+<table cellpadding="3" cellspacing="1" class="standard_tabelle">
+<tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">1</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/david-seaman/" title="David Seaman">David Seaman</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">2</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/lee-dixon/" title="Lee Dixon">Lee Dixon</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">5</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/martin-keown/" title="Martin Keown">Martin Keown</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">6</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/tony-adams/" title="Tony Adams">Tony Adams</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">12</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/lauren/" title=" Lauren"> Lauren</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"><span class="rottext">63'</span></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">16</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/sylvinho/" title=" Sylvinho"> Sylvinho</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">18</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/gilles-grimandi/" title="Gilles Grimandi">Gilles Grimandi</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">4</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/patrick-vieira/" title="Patrick Vieira">Patrick Vieira</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">7</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/robert-pires/" title="Robert Pirés">Robert Pirés</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">14</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/thierry-henry/" title="Thierry Henry">Thierry Henry</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">25</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/nwankwo-kanu/" title="Nwankwo Kanu">Nwankwo Kanu</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>
+<tr>
+<td class="ueberschrift" colspan="3"><b>Substitutes</b></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">10</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/dennis-bergkamp/" title="Dennis Bergkamp">Dennis Bergkamp</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"><span class="gruentext">63'</span></span>
+</td>
+</tr>
+</table>
+</td>
+<td class="box_zelle" valign="top" width="50%">
+<table cellpadding="3" cellspacing="1" class="standard_tabelle">
+<tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">1</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/dean-kiely/" title="Dean Kiely">Dean Kiely</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/carl-tiler/" title="Carl Tiler">Carl Tiler</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">2</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/radostin-kishishev/" title="Radostin Kishishev">Radostin Kishishev</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">3</span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/chris-powell/" title="Chris Powell">Chris Powell</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">5</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/richard-rufus/" title="Richard Rufus">Richard Rufus</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/mark-kinsella/" title="Mark Kinsella">Mark Kinsella</a>
+<img alt="yellow" src="http://static.weltsport.net/bilder/shared/karten/1.gif" style="vertical-align: middle" title="Yellow card" vspace="1"/> </td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="rottext">78'</span></span></td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">4</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/graham-stuart/" title="Graham Stuart">Graham Stuart</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">10</span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/claus-jensen/" title="Claus Jensen">Claus Jensen</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="rottext">66'</span></span></td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">11</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/john-robinson/" title="John Robinson">John Robinson</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/kevin-lisbie/" title="Kevin Lisbie">Kevin Lisbie</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="rottext">72'</span></span></td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/andrew-hunt/" title="Andrew Hunt">Andrew Hunt</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>
+<tr>
+<td class="ueberschrift" colspan="3"><b>Substitutes</b></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/scott-parker/" title="Scott Parker">Scott Parker</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="gruentext">78'</span></span></td>
+</tr>
+<tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/shaun-newton/" title="Shaun Newton">Shaun Newton</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"><span class="gruentext">66'</span></span></td>
+</tr>
+<tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">21</span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/jonatan-johansson/" title="Jonatan Johansson">Jonatan Johansson</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="gruentext">72'</span></span></td>
+</tr>
+</table>
+</td>
+</tr>, u'\n']
+ ******************************** END TABLE 2 
+[u'\n', <tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">1</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/david-seaman/" title="David Seaman">David Seaman</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">2</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/lee-dixon/" title="Lee Dixon">Lee Dixon</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">5</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/martin-keown/" title="Martin Keown">Martin Keown</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">6</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/tony-adams/" title="Tony Adams">Tony Adams</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">12</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/lauren/" title=" Lauren"> Lauren</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"><span class="rottext">63'</span></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">16</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/sylvinho/" title=" Sylvinho"> Sylvinho</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">18</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/gilles-grimandi/" title="Gilles Grimandi">Gilles Grimandi</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">4</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/patrick-vieira/" title="Patrick Vieira">Patrick Vieira</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">7</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/robert-pires/" title="Robert Pirés">Robert Pirés</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">14</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/thierry-henry/" title="Thierry Henry">Thierry Henry</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">25</span>
+</td>
+<td class="hell" width="72%">
+<a href="/player_summary/nwankwo-kanu/" title="Nwankwo Kanu">Nwankwo Kanu</a>
+</td>
+<td align="right" class="hell" width="18%">
+<span class="kleine_schrift"></span>
+</td>
+</tr>, u'\n', <tr>
+<td class="ueberschrift" colspan="3"><b>Substitutes</b></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%">
+<span class="kleine_schrift" style="font-weight: bold; color: #646464">10</span>
+</td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/dennis-bergkamp/" title="Dennis Bergkamp">Dennis Bergkamp</a>
+</td>
+<td align="right" class="dunkel" width="18%">
+<span class="kleine_schrift"><span class="gruentext">63'</span></span>
+</td>
+</tr>, u'\n']
+ ******************************** END TABLE 3 
+[u'\n', <tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">1</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/dean-kiely/" title="Dean Kiely">Dean Kiely</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/carl-tiler/" title="Carl Tiler">Carl Tiler</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">2</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/radostin-kishishev/" title="Radostin Kishishev">Radostin Kishishev</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">3</span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/chris-powell/" title="Chris Powell">Chris Powell</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">5</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/richard-rufus/" title="Richard Rufus">Richard Rufus</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/mark-kinsella/" title="Mark Kinsella">Mark Kinsella</a>
+<img alt="yellow" src="http://static.weltsport.net/bilder/shared/karten/1.gif" style="vertical-align: middle" title="Yellow card" vspace="1"/> </td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="rottext">78'</span></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">4</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/graham-stuart/" title="Graham Stuart">Graham Stuart</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">10</span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/claus-jensen/" title="Claus Jensen">Claus Jensen</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="rottext">66'</span></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">11</span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/john-robinson/" title="John Robinson">John Robinson</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/kevin-lisbie/" title="Kevin Lisbie">Kevin Lisbie</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="rottext">72'</span></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/andrew-hunt/" title="Andrew Hunt">Andrew Hunt</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"></span></td>
+</tr>, u'\n', <tr>
+<td class="ueberschrift" colspan="3"><b>Substitutes</b></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/scott-parker/" title="Scott Parker">Scott Parker</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="gruentext">78'</span></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="hell" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464"></span></td>
+<td class="hell" width="72%">
+<a href="/player_summary/shaun-newton/" title="Shaun Newton">Shaun Newton</a>
+</td>
+<td align="right" class="hell" width="18%"><span class="kleine_schrift"><span class="gruentext">66'</span></span></td>
+</tr>, u'\n', <tr>
+<td align="center" class="dunkel" width="10%"><span class="kleine_schrift" style="font-weight: bold; color: #646464">21</span></td>
+<td class="dunkel" width="72%">
+<a href="/player_summary/jonatan-johansson/" title="Jonatan Johansson">Jonatan Johansson</a>
+</td>
+<td align="right" class="dunkel" width="18%"><span class="kleine_schrift"><span class="gruentext">72'</span></span></td>
+</tr>, u'\n']
+ ******************************** END TABLE 4 
+[u'\n', <tr>
+<th width="50%">Manager:  <a href="/player_summary/arsene-wenger/" title="Arsène Wenger">Arsène Wenger</a></th>
+<th width="50%">Manager:  <a href="/player_summary/alan-curbishley/" title="Alan Curbishley">Alan Curbishley</a></th>
+</tr>, u'\n']
+ ******************************** END TABLE 5 
+[u'\n', <tr>
+<td class="dunkel" width="30%"></td>
+<td align="center" class="dunkel" width="20%"><img height="20" src="http://static.weltsport.net/bilder/shared/ng_2013/stadion.png" title="stadium" width="34"/></td>
+<td class="dunkel" width="50%"><a href="/venues/highbury-london/" title="Highbury (London / England)">Highbury</a> (London / England)</td>
+</tr>, u'\n', <tr>
+<td class="dunkel"></td>
+<td align="center" class="dunkel"><img height="14" src="http://static.weltsport.net/bilder/shared/ng_2013/zuschauer.png" title="Attendance" vspace="3" width="30"/></td>
+<td class="dunkel">
+																	38.025																</td>
+</tr>, u'\n', <tr>
+<td class="dunkel"></td>
+<td align="center" class="dunkel"><img height="19" src="http://static.weltsport.net/bilder/shared/ng_2013/schiedsrichter.png" title="Referee" width="24"/></td>
+<td class="dunkel"><a href="/referee_summary/stephen-lodge/" title="Referee Stephen Lodge">Stephen Lodge</a> (England)</td>
+</tr>, u'\n']
+ ******************************** END TABLE 6 
