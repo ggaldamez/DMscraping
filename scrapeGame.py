@@ -26,7 +26,7 @@ def getCoaches(gId,cData):
 
 def getGoals(gId, gData, nGoals):
 	goalRows = gData.find_all('tr')
-
+	prevGdifference = 0
 	for i,row in enumerate(goalRows):
 		if i>0:
 			goal_data = row.find_all('td')
@@ -47,13 +47,19 @@ def getGoals(gId, gData, nGoals):
 					else:
 						scoringTeam = "home"
 
-			#if (int(scoringMinute) == 90) and (int(partialHome)+int(partialHome)==nGoals)
+			if scoringTeam == "away":
+				goalDiff = int(partialAway) - int(partialHome)
+			else:
+				goalDiff = int(partialHome) - int(partialAway)
 
+			if (int(scoringMinute) == 90) and (int(partialHome)+int(partialAway)==nGoals) and (goalDiff<2):
+				pointEarner = "yes"
+			else:
+				pointEarner = "no"
+			#print scoringMinute + " " + str(int(partialHome)+int(partialAway)) + " (" + str(nGoals)+ ") " + str(goalDiff)
+			printRow = '{},{},{},{},{},{},{},{}\n'.format(gId, scoringMinute, scoringTeam, scorerName, partialHome, partialAway, goalDiff, pointEarner)
+			print printRow
 
-
-
-
-			print str(gId) + " -- " + scoringMinute + ". " + partialHome + " - " + partialAway + " / " + scorerName + " _" + scoringTeam
 
 
 
