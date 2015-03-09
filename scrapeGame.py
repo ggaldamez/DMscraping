@@ -38,20 +38,25 @@ def getGoals(gId, gData, nGoals):
 					partialAway = partialScore[separator+2:]
 
 				else:
-					print td.contents[2]
-					scoringMinute = '0'
-					scorerName = 'somebody'
+					separator = td.contents[2].find('.')
+					scoringMinute = td.contents[2][1:separator]
 
-			print scoringMinute + ". " + partialHome + " - " + partialAway + " / " + scorerName
+					scorerName = uniclean(td.find('a').string)
+					if td.get('style')=='padding-left: 50px;':
+						scoringTeam = "away"
+					else:
+						scoringTeam = "home"
+
+			#if (int(scoringMinute) == 90) and (int(partialHome)+int(partialHome)==nGoals)
 
 
 
-			'''
-			partialScore = str(row.find('b').string)
-			separator = partialScore.find(':')
-			partialHome = partialScore[:separator-1]
-			partialAway = partialScore[separator+2:]
-			'''
+
+
+			print str(gId) + " -- " + scoringMinute + ". " + partialHome + " - " + partialAway + " / " + scorerName + " _" + scoringTeam
+
+
+
 
 
 def getGameData(gameId, site, numGoals):

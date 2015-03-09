@@ -9,8 +9,8 @@ def main():
 	g4 = ['http://www.worldfootball.net/report/premier-league-2009-2010-manchester-united-manchester-city/',7]
 	g5 = ['http://www.worldfootball.net/report/premier-league-2011-2012-blackburn-rovers-wolverhampton-wanderers/', 3]
 
-	#games = [g1,g2,g3,g4,g5]
-	games = [g1]
+	games = [g1,g2,g3,g4,g5]
+	#games = [g4]
 
 
 	for i,game in enumerate(games):
