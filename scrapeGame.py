@@ -19,46 +19,47 @@ def getCoaches(gId,cData):
 	awayManager = uniclean(managerTag[1].string)
 
 	coachesRow = '{0},{1},{2}\n'.format(gId, homeManager, awayManager)
-	print coachesRow
-	'''
+	#print coachesRow
+
 	with open("game_managers.csv",'a') as f:
-		f.write(coachesRow) '''
+		f.write(coachesRow)
 
 def getGoals(gId, gData, nGoals):
 	goalRows = gData.find_all('tr')
-	prevGdifference = 0
-	for i,row in enumerate(goalRows):
-		if i>0:
-			goal_data = row.find_all('td')
-			for td in goal_data:
-				if (td.find('b')!=None):
-					partialScore = str(td.find('b').string)
-					separator = partialScore.find(':')
-					partialHome = partialScore[:separator-1]
-					partialAway = partialScore[separator+2:]
 
-				else:
-					separator = td.contents[2].find('.')
-					scoringMinute = td.contents[2][1:separator]
+	with open("goals.csv",'a') as f:
+		for i,row in enumerate(goalRows):
+			if i>0:
+				goal_data = row.find_all('td')
+				for td in goal_data:
+					if (td.find('b')!=None):
+						partialScore = str(td.find('b').string)
+						separator = partialScore.find(':')
+						partialHome = partialScore[:separator-1]
+						partialAway = partialScore[separator+2:]
 
-					scorerName = uniclean(td.find('a').string)
-					if td.get('style')=='padding-left: 50px;':
-						scoringTeam = "away"
 					else:
-						scoringTeam = "home"
+						separator = td.contents[2].find('.')
+						scoringMinute = td.contents[2][1:separator]
 
-			if scoringTeam == "away":
-				goalDiff = int(partialAway) - int(partialHome)
-			else:
-				goalDiff = int(partialHome) - int(partialAway)
+						scorerName = uniclean(td.find('a').string)
+						if td.get('style')=='padding-left: 50px;':
+							scoringTeam = "away"
+						else:
+							scoringTeam = "home"
 
-			if (int(scoringMinute) == 90) and (int(partialHome)+int(partialAway)==nGoals) and (goalDiff<2):
-				pointEarner = "yes"
-			else:
-				pointEarner = "no"
-			#print scoringMinute + " " + str(int(partialHome)+int(partialAway)) + " (" + str(nGoals)+ ") " + str(goalDiff)
-			printRow = '{},{},{},{},{},{},{},{}\n'.format(gId, scoringMinute, scoringTeam, scorerName, partialHome, partialAway, goalDiff, pointEarner)
-			print printRow
+				if scoringTeam == "away":
+					goalDiff = int(partialAway) - int(partialHome)
+				else:
+					goalDiff = int(partialHome) - int(partialAway)
+
+				if (int(scoringMinute) == 90) and (int(partialHome)+int(partialAway)==nGoals) and (goalDiff<2):
+					pointEarner = "yes"
+				else:
+					pointEarner = "no"
+				#print scoringMinute + " " + str(int(partialHome)+int(partialAway)) + " (" + str(nGoals)+ ") " + str(goalDiff)
+				printRow = '{},{},{},{},{},{},{},{}\n'.format(gId, scoringMinute, scoringTeam, scorerName, partialHome, partialAway, goalDiff, pointEarner)
+				f.write (printRow)
 
 
 
@@ -77,7 +78,7 @@ def getGameData(gameId, site, numGoals):
 	goals_data = report_data[1]
 	manager_data = report_data[5]
 
-	#getCoaches(gameId,manager_data)
+	getCoaches(gameId,manager_data)
 
 	if numGoals>0:
 		getGoals(gameId,goals_data,numGoals)
