@@ -75,7 +75,7 @@ def main():
 		#saveFileName = r'games/{0}.txt'.format(seasonYears)
 
 		soup = BeautifulSoup(page.content, 'html.parser')
-		delay(5)
+		delay(2)
 		#soup = BeautifulSoup(open("season.htm"), 'html.parser')
 
 		#print soup.prettify()

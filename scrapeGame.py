@@ -84,7 +84,7 @@ def getGoals(gId, gData, nGoals):
 
 
 def getGameData(gameId, site, numGoals):
-	delay(3)
+	delay(4)
 	page = requests.get(site)
 	soup = BeautifulSoup(page.content, 'html.parser')
 	print "processing match number " + str(gameId)
